@@ -17,11 +17,11 @@ Instale o Express utilizando o comando "npm install express".
 Crie um arquivo chamado "index.js" na raiz do seu projeto.
 Abra o arquivo "index.js" e importe o Express com o comando "const express = require('express')".
 Inicie o servidor Express e defina a porta 3333
-
+*/
 
 const express = require('express');
 const app = express();
 
 app.listen(3000, () => {
     console.log('SERVIDOR ON!')
-}); */
+}); 
